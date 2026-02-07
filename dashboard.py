@@ -90,8 +90,6 @@ st.sidebar.info(
 # ============================================================================
 if page == "Executive Summary":
     st.markdown('<p class="main-header">🚕 Taxi Claims Analysis Dashboard</p>', unsafe_allow_html=True)
-    st.markdown('<p class="sub-header">Ministry of Manpower | January - September 2015</p>', unsafe_allow_html=True)
-
     # Key metrics
     st.markdown("## 📊 Key Metrics")
     col1, col2, col3, col4 = st.columns(4)
@@ -1744,6 +1742,6 @@ elif page == "Thought Process & Disclaimer":
 # Footer
 st.markdown("---")
 st.markdown(
-    "<p style='text-align: center; color: #666;'>Dashboard created for MOM Taxi Claims Analysis | Data: Jan-Sep 2015</p>",
+    "<p style='text-align: center; color: #666;'>⚙️ Sean Lim / 02/2026 / MOM OA</p>",
     unsafe_allow_html=True
 )
