@@ -1,0 +1,8 @@
+# Ignore everything by default
+*
+
+# But track these specific files
+!.gitignore
+!dashboard.py
+!master.parquet
+!requirements.txt
